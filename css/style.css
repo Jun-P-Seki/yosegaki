@@ -7,7 +7,8 @@
 }
 
 body.ginga {
-  background-image: url("../img/haikei/mori.jpg");
+  /* background-image: url("../img/haikei/mori.jpg"); */
+  background-image: url("../img/haikei/daisizen.jpg");
   background-size: cover;
 }
 
@@ -20,17 +21,29 @@ body.tao {
 
 body.zipper {
   background-image: url("../img/haikei/hosizora.jpg");
+  background-size: cover;
 }
 
 img {
   object-fit: contain;
 }
 
-h1.zipper{
+.ginga h1 {
+  color: #fff;
+  -webkit-text-stroke: 1px rgb(99, 152, 173);
+}
+
+.tao h1 {
+  color: #eee;
+  -webkit-text-stroke: 1.5px rgb(177, 84, 92);
+}
+
+.zipper h1{
   padding: 32px 0;
   /* background: rgba(150, 150, 150, 0.5); */
-  color: #eee;
-  text-align: center;
+  color: #ffffff;
+  -webkit-text-stroke: 1px rgb(33, 112, 112);
+
 }
 
 h1 {
@@ -73,6 +86,7 @@ main{
 
 .personal {
   width: calc((100% - 24px) / 2);
+  height: 100%;
   padding: 8px;
   background-color: rgb(68, 78, 78);
   color: #fff;
@@ -108,7 +122,8 @@ main{
 
 .bankoran {
   /* color: red; */
-  background-color: rgb(129, 179, 179);
+  color: #dddddd;
+  background-color: rgb(106, 150, 150);
 }
 
 
