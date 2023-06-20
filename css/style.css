@@ -95,10 +95,15 @@ main{
 /* ------------------
 -------個人-------
 ------------------ */
+.rei {
+  color: #333;
+  background-color: rgb(207, 255, 215);
+}
 
 .seven {
   color: black;
   background-color: rgb(253, 222, 183);
+  font-size: 18px;
 }
 
 .bankoran {
