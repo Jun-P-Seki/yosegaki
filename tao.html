@@ -41,6 +41,29 @@
       </div>
     </div>
 
+    <div class="personal subaru">
+      <div>
+          <p>ＴＡＯさん<br>
+            ＷＳでのＴＡＯさんの最適なタイミングで俯瞰した視点からのコメントに、盲点に気づかされたり、視野の広さにハッとさせられ、良いミラーニューロンを頂きました。<br>
+            フッ軽旅で広島でお逢いできたのも、楽しい思い出となりました。ありがとうございました！
+            </p>
+          <div class="up">
+            <img src="img/person/none.png" width="50" height="50">
+            <p>すばる</p>
+          </div>
+        </div>
+    </div>
+
+    <div class="personal">
+      <div>
+          <p>ありがとうございます。ありがとうございます。ありがとうございます。ありがとうございます。ありがとうございます。ありがとうございます。ありがとうございます。ありがとうございます。ありがとうございます。ありがとうございます。ありがとうございます。</p>
+          <div class="up">
+            <img src="img/person/none.png" width="50" height="50">
+            <p>◯◯</p>
+          </div>
+        </div>
+    </div>
+
     <div class="personal">
       <div>
         <div class="up">
@@ -76,9 +99,15 @@
 
 
   </main>
+  
   <footer>
     コピーライティング<br> by <br> 2022-2023 第四期<br>穴の虎コミュニティクラス
   </footer>
-
+  <script>
+    const personal = document.querySelectorAll('.personal');
+    personal.forEach(p => {
+      p.style.order = Math.floor(Math.random() * 1000);
+    });
+  </script>
 </body>
 </html>

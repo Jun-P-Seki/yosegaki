@@ -43,6 +43,29 @@
       </div>
     </div>
 
+    <div class="personal subaru">
+      <div>
+          <p>銀河さん<br>
+            毎週のＷＳに1day合宿など、濃厚な場での縁の下の力持ち的サポート、運営をして頂きありがとうございました。<br>
+            全体を俯瞰しながら迅速に対応する、こういうことが私もできるよう、見習わせて頂きます！
+            </p>
+          <div class="up">
+            <img src="img/person/none.png" width="50" height="50">
+            <p>すばる</p>
+          </div>
+        </div>
+    </div>
+
+    <div class="personal">
+      <div>
+          <p>ありがとうございます。ありがとうございます。ありがとうございます。ありがとうございます。ありがとうございます。ありがとうございます。ありがとうございます。ありがとうございます。ありがとうございます。ありがとうございます。ありがとうございます。</p>
+          <div class="up">
+            <img src="img/person/none.png" width="50" height="50">
+            <p>◯◯</p>
+          </div>
+        </div>
+    </div>
+
     <div class="personal">
       <div>
         <div class="up">
@@ -82,5 +105,11 @@
     コピーライティング<br> by <br> 2022-2023 第四期<br>穴の虎コミュニティクラス
   </footer>
 
+  <script>
+    const personal = document.querySelectorAll('.personal');
+    personal.forEach(p => {
+      p.style.order = Math.floor(Math.random() * 1000);
+    });
+  </script>
 </body>
 </html>

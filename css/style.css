@@ -126,6 +126,9 @@ main{
   background-color: rgb(106, 150, 150);
 }
 
+.subaru {
+  background-color: rgb(228, 88, 63);
+}
 
 
 
@@ -150,7 +153,7 @@ footer {
 -------------
 */
 
-@media (max-width:460px) {
+@media (max-width:580px) {
   main {
     display: inline;
   }
@@ -167,7 +170,7 @@ footer {
 --------------
  */
 
-@media (min-width:700px) {
+@media (min-width:829px) {
   .personal {
     width: calc((100% - 48px) / 3);
   }

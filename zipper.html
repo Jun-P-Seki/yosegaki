@@ -41,27 +41,51 @@
       </div>
     </div>
 
-    <div class="personal">
+    <div class="personal subaru">
       <div>
-        <div class="up">
-          <img src="img/woman1.png" alt="" width="50" height="50">
-          <h2>ありがとうございます。</h2>
-        </div>
-          <p>ありがとうございます。ありがとうございます。ありがとうございます。ありがとうございます。ありがとうございます。ありがとうございます。ありがとうございます。ありがとうございます。ありがとうございます。ありがとうございます。ありがとうございます。</p>
-          <p>〇〇より</p>
+          <p>ジッパーさん<br>
+            「想像したものと実際の体験は違う」穴の虎に入った1年前、1年後どうなっているのか？想像できませんでした。<br>
+            1年後の今「自分の中の不適切な神話に気づいて、それを書き換えて、具体的に行動する」のが習慣になっています。これにより、長年苦しんだ神話からも解放されました。<br>
+            主語を「私」から「私達」に変えて考えることで、安らぎを感じながら内側からパワーが湧いてくるようになりました。これらの複利の芯が回っていく未来は想像がつきませんが、とてもユニークな人生となりそうです！<br>
+            想像もできない体験をさせて頂き、ありがとうございました。
+            </p>
+          <div class="up">
+            <img src="img/person/none.png" width="50" height="50">
+            <p>すばる</p>
+          </div>
         </div>
     </div>
 
     <div class="personal">
       <div>
-        <div class="up">
-          <img src="img/woman1.png" alt="" width="50" height="50">
-          <h2>ありがとうございます。</h2>
-        </div>
           <p>ありがとうございます。ありがとうございます。ありがとうございます。ありがとうございます。ありがとうございます。ありがとうございます。ありがとうございます。ありがとうございます。ありがとうございます。ありがとうございます。ありがとうございます。</p>
-          <p>〇〇より</p>
+          <div class="up">
+            <img src="img/person/none.png" width="50" height="50">
+            <p>◯◯</p>
+          </div>
         </div>
     </div>
+
+    <div class="personal">
+      <div>
+          <p>ありがとうございます。ありがとうございます。ありがとうございます。ありがとうございます。ありがとうございます。ありがとうございます。ありがとうございます。ありがとうございます。ありがとうございます。ありがとうございます。ありがとうございます。</p>
+          <div class="up">
+            <img src="img/person/none.png" width="50" height="50">
+            <p>◯◯</p>
+          </div>
+        </div>
+    </div>
+
+    <div class="personal">
+      <div>
+          <p>ありがとうございます。ありがとうございます。ありがとうございます。ありがとうございます。ありがとうございます。ありがとうございます。ありがとうございます。ありがとうございます。ありがとうございます。ありがとうございます。ありがとうございます。</p>
+          <div class="up">
+            <img src="img/person/none.png" width="50" height="50">
+            <p>◯◯</p>
+          </div>
+        </div>
+    </div>
+
  <div class="personal">
       <div>
         <div class="up">
@@ -79,6 +103,13 @@
   <footer>
     コピーライティング<br> by <br> 2022-2023 第四期<br>穴の虎コミュニティクラス
   </footer>
+
+  <script>
+    const personal = document.querySelectorAll('.personal');
+    personal.forEach(p => {
+      p.style.order = Math.floor(Math.random() * 1000);
+    });
+  </script>
 
 </body>
 </html>
