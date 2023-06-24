@@ -139,6 +139,15 @@ main{
   background-color: rgb(0, 204, 204);
 }
 
+.harmony {
+  background-color: rgb(246, 255, 127);
+  color: #d35d5d;
+}
+
+.siro {
+  background-color: #5c4d4d;
+}
+
 /* 
 -----------
 ---footer--
