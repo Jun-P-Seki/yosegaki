@@ -153,6 +153,10 @@ main{
   color: #5a3969;
 }
 
+.flat {
+  /* background-color: inherit; */
+  color: #fff; 
+} 
 
 /* 
 -----------
