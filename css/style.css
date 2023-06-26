@@ -160,7 +160,11 @@ main{
 
 .kaze {
   background-color: rgb(214, 138, 150);
+}
 
+.drifter {
+  background-color: #d6d32c;
+  font-size: 32px;
 }
 
 /* 
