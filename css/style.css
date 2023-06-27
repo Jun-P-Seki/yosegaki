@@ -167,6 +167,15 @@ main{
   font-size: 32px;
 }
 
+.rikka {
+  background-color: rgb(113, 173, 197);
+}
+
+.sozo {
+  background-color: rgb(125, 187, 32);
+  font-size: 10px;
+}
+
 /* 
 -----------
 ---footer--
