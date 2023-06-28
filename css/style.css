@@ -173,7 +173,12 @@ main{
 
 .sozo {
   background-color: rgb(125, 187, 32);
-  font-size: 10px;
+  font-size: 8px;
+}
+
+.sozo:hover {
+  /* transform: scaleY(1.5); */
+  font-size: 15px;
 }
 
 .neo {
