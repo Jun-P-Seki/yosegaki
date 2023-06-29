@@ -164,6 +164,7 @@ main{
 
 .drifter {
   background-color: #d6d32c;
+  color: #333;
   font-size: 32px;
 }
 
@@ -173,7 +174,7 @@ main{
 
 .sozo {
   background-color: rgb(125, 187, 32);
-  font-size: 8px;
+  font-size: 1px;
 }
 
 .sozo:hover {
@@ -184,6 +185,16 @@ main{
 .neo {
   background-color: purple;
   font-size: 14px;
+}
+
+.zero {
+  background-color: plum;
+  color: #c6fbff;
+}
+
+.eru {
+  background-color: yellow;
+  color: #333;
 }
 
 /* 
