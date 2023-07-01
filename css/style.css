@@ -203,6 +203,20 @@ main{
   color: rgb(155, 0, 0);
 }
 
+.anemone {
+  background-color: blue;
+  color: yellow;
+}
+
+.plus1 {
+  background-color: orangered;
+  color: #fff;
+}
+
+.yui {
+  background-color: greenyellow;
+  color: rgb(77, 0, 13);
+}
 
 /* 
 -----------
