@@ -211,11 +211,17 @@ main{
 .plus1 {
   background-color: orangered;
   color: #fff;
+  font-size: 20px;
 }
 
 .yui {
   background-color: greenyellow;
   color: rgb(77, 0, 13);
+}
+
+.uchu {
+  background-color: #ffffff;
+  color: rgb(89, 136, 155);
 }
 
 /* 
